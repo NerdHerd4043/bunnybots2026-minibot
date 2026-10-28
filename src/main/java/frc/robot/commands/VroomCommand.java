@@ -15,7 +15,7 @@ public class VroomCommand extends Command{
     }
     @Override
     public void execute() {
-        drivetrain.arcadeDrive(joystick.getRawAxis(0), joystick.getRawAxis(1)*0.7);
+        drivetrain.arcadeDrive(joystick.getRawAxis(1), joystick.getRawAxis(0)*0.7);
     }
     @Override
     public void end(boolean inturupt) {
